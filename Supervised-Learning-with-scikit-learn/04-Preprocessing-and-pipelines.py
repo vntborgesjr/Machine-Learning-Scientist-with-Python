@@ -36,6 +36,21 @@ df_region = pd.get_dummies(df, drop_first = True)
 # Print the new columns of df_region
 print(df_region.columns)
 
+# Regression with categorical features
+# Import necessary modules
+____
+____
+
+# Instantiate a ridge regressor: ridge
+ridge = ____
+
+# Perform 5-fold cross-validation: ridge_cv
+ridge_cv = ____
+
+# Print the cross-validated scores
+print(____)
+
+
 # convert '?' to NaN
 df[df == '?'] = np.nan
 
